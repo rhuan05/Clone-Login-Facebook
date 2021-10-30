@@ -1,0 +1,175 @@
+body{
+    padding: 100px 180px;
+}
+.container--flex{
+    display: flex;
+    justify-content: center;
+}
+.container--left{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+}
+.facebookImg{
+    width: 200px;
+}
+.container--left h1{
+    font-weight: 500;
+    margin-top: 20px;
+    font-size: 24px
+}
+.container--left p{
+    margin-top: -10px;
+    color: rgb(80, 80, 80);
+    font-size: 15px;
+}
+.container--contas{
+    text-align: center;
+}
+.container--image{
+    background-color:rgb(243, 243, 243);
+    border: 1px solid rgb(213, 213, 213);
+    border-radius: 10px;
+    width: 50px;
+    padding: 0px 50px;
+    padding-top: 40px;
+    width: 70px;
+}
+.container--contas img{
+    width: 40px;
+}
+.container--contas .adConta{
+    color: #1877f2;
+    margin-top: 50px;
+    width: 128%;
+    background: white;
+    padding: 10px 40px;
+    margin-left: -50px;
+    font-size: 17px;
+}
+.container--formulario{
+    margin-left: 150px;
+    box-shadow: 0px 1px 10px rgb(213, 213, 213);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 400px; 
+    width: 40vw;
+}
+.container--formulario input{
+    display: block;
+    margin: auto;
+    width: 300px;
+    padding: 12px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid rgb(213, 213, 213);
+    margin-bottom: 10px;
+    width: 33vw;
+    max-width: 380px; 
+}
+button{
+    display: block;
+    margin: auto;
+    font-weight: 600;
+    color: white;
+    height: 6vw;
+    max-height: 40px;
+    cursor: pointer;
+}
+.container--formulario p{
+    font-size: 14px;
+    color: #166fe5;
+}
+.btnEntrar{
+    font-size: 17px;
+    background-color: #166fe5;
+    border: none;
+    border-radius: 5px;
+    width: 35vw;
+    max-width: 400px;
+}
+hr{
+    margin: 20px 0px;
+    opacity: .5;
+}
+.btnCriarConta{
+    background-color: #42b72a;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 30vw;
+    padding: 10px;
+    max-width: 200px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 250px;
+}
+@media (max-width: 768px){
+    .container--formulario{
+        float: right;
+    }
+    body{
+        padding: 80px 10px;
+    }
+    .container--left{
+        margin-right: -140px;
+    }
+    .container--image{
+        background-color:rgb(243, 243, 243);
+        border: 1px solid rgb(213, 213, 213);
+        border-radius: 10px;
+        width: 50px;
+        padding: 0px 50px;
+        padding-top: 40px;
+        width: 20px;
+        height: 100px;
+    }
+    .container--contas img{
+        width: 20px;
+    }
+    .container--contas .adConta{
+        color: #1877f2;
+        margin-top: 26px;
+        width: 200%;
+        background: white;
+        padding: 10px 40px;
+        margin-left: -50px;
+        font-size: 13px;
+        text-align: center;
+    }
+    .btnCriarConta{
+        font-size: 9px;
+    }
+    .facebookImg{
+        width: 100px;
+    }
+    .container--left h1{
+        font-weight: 500;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    .container--left p{
+        margin-top: -10px;
+        color: rgb(80, 80, 80);
+        font-size: 10px;
+    }
+    .container--formulario input{
+        display: block;
+        margin: auto;
+        width: 300px;
+        padding: 12px 10px;
+        font-size: 13px;
+        border-radius: 5px;
+        border: 1px solid rgb(213, 213, 213);
+        margin-bottom: 10px;
+        width: 33vw;
+        height: 10px;
+    }
+}
